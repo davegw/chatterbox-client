@@ -13,19 +13,16 @@ body {
   padding-top: 30px;
 }
 
-#main h1 {
+#main h1#title {
   margin-top: 0;
   font-size: 35px;
   margin-bottom: 5px;
   padding: 5px;
+  text-align: center;
 }
 
-#main h1 span {
+#main h1#title span {
   font-style:italic;
-}
-
-#main ul {
-  padding-left: 20px;
 }
 
 #main .error {
@@ -43,13 +40,9 @@ body {
   color: green;
   line-height: 13px;
 }
-
-form {
-  padding: 20px;
-  padding-left: 0;
+form input{
   margin-bottom: 20px;
 }
-
 form input[type=text] {
   margin-right: 10px;
   width: 70%;
